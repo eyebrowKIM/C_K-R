@@ -41,13 +41,49 @@
 Character Counting
 */
 
-main()
-{
-    long nc;
+// int main() {
+//     int nc;
 
-    nc = 0;
-    while (getchar() != EOF) {
-        ++nc;
-        printf("%d", nc);
-    }
-}
+//     nc = 0;
+//     int c;
+//     while ((c = getchar()) != EOF){
+//         if (c != '\n') {
+//             ++nc;
+//             printf("total : %d, input : %c\n", nc, c);
+//         }
+//     }
+
+//     return 0;
+// }
+
+/*
+Character Counting 2nd version
+*/
+
+// main()
+// {
+//     double nc = 0;
+
+//     for (getchar() != EOF; ++nc;);
+//     {printf("%.0f\n", nc);}
+// }
+
+// Exercise 1-8. Write a program to count blanks, tabs, and newlines.
+
+// main()
+// {
+//     int c, nl = 0, nt = 0, nb = 0; 
+//     printf("%d", nl);
+//     while ((c = getchar()) != EOF) {
+//         if (c == '\n') {
+//             ++nl;
+//             printf("New Line: %d\n", nl);
+//         } else if (c == '\t') {
+//             ++nt;
+//             printf("Tab: %d\n", nt);
+//         } else if (c == ' ') {
+//             ++nb;
+//             printf("Blank: %d\n", nb);
+//         }
+//     }
+// }
